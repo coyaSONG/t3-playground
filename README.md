@@ -7,7 +7,7 @@
 - [x] 빌드 프로세스 정리
 - [x] 실제 데이터베이스 설정하기 (w/ vercel postgres)
 - [x] UI에 데이터베이스 연결하기
-- [ ] 인증 (w/ clerk)
+- [x] 인증 (w/ clerk)
 - [ ] 이미지 업로드 기능 추가하기
 - [ ] 에러 관리하기 (w/ Sentry)
 - [ ] Routing/image page (w/ parallel route)
