@@ -9,7 +9,7 @@
 - [x] UI에 데이터베이스 연결하기
 - [x] 인증 (w/ clerk)
 - [x] 이미지 업로드 기능 추가하기
-- [ ] "taint" (server-only)
+- [x] "taint" (server-only)
 - [ ] Next/Image component 사용하기
 - [ ] 에러 관리하기 (w/ Sentry)
 - [ ] Routing/image page (w/ parallel route)
