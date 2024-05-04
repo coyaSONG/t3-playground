@@ -10,8 +10,8 @@
 - [x] 인증 (w/ clerk)
 - [x] 이미지 업로드 기능 추가하기
 - [x] "taint" (server-only)
-- [ ] Next/Image component 사용하기
-- [ ] 에러 관리하기 (w/ Sentry)
+- [x] Next/Image component 사용하기
+- [x] 에러 관리하기 (w/ Sentry)
 - [ ] Routing/image page (w/ parallel route)
 - [ ] 삭제 버튼 추가하기 (w/ Server Actions)
 - [ ] 분석 기능 추가하기 (w/ posthog)
