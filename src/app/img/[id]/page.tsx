@@ -9,7 +9,7 @@ export default function PhotoPage({
   if (Number.isNaN(idAsNumber)) throw new Error("Invalid photo id");
 
   return (
-    <div className="h-full">
+    <div className="flex h-full min-h-0 w-full min-w-0 overflow-y-hidden">
       <FullImagePage id={idAsNumber} />
     </div>
   );
