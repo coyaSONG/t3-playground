@@ -16,5 +16,5 @@
 - [x] Upload Button 스타일링
 - [x] shadcn ui 설정(sonner / toast 설정)
 - [x] 분석 기능 추가하기 (w/ posthog)
-- [ ] 삭제 버튼 추가하기 (w/ Server Actions)
+- [x] 삭제 버튼 추가하기 (w/ Server Actions)
 - [ ] Ratelimiting 요청제한 설정하기 (w/ upstash)
