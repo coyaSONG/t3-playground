@@ -17,4 +17,9 @@
 - [x] shadcn ui 설정(sonner / toast 설정)
 - [x] 분석 기능 추가하기 (w/ posthog)
 - [x] 삭제 버튼 추가하기 (w/ Server Actions)
-- [ ] Ratelimiting 요청제한 설정하기 (w/ upstash)
+- [x] Ratelimiting 요청제한 설정하기 (w/ upstash)
+
+- [ ] 다양한 해상도의 이미지의 레이아웃 수정
+- [ ] "선택" 추
+- [ ] Infinite scroll
+- [ ] folder / album 기능 추가
