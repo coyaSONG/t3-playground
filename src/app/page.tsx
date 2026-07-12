@@ -1,5 +1,5 @@
 import { headers } from "next/headers";
-import { SignedOut, SignedIn } from "@clerk/nextjs";
+import { Show } from "@clerk/nextjs";
 import { getMyImages } from "~/server/queries";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,7 +7,7 @@ import Link from "next/link";
 export const dynamic = "force-dynamic";
 
 async function Images() {
-  headers();
+  await headers();
 
   const images = await getMyImages();
 
@@ -34,12 +34,12 @@ async function Images() {
 export default async function HomePage() {
   return (
     <main className="">
-      <SignedOut>
+      <Show when="signed-out">
         <div className="h-full w-full text-center text-2xl">Please sign in</div>
-      </SignedOut>
-      <SignedIn>
+      </Show>
+      <Show when="signed-in">
         <Images />
-      </SignedIn>
+      </Show>
     </main>
   );
 }
